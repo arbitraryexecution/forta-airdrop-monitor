@@ -1,5 +1,5 @@
 {
-  "name": "forta-AE-FORTA-airdrop-monitor",
+  "name": "forta-ae-forta-airdrop-monitor",
   "version": "0.0.1",
   "description": "Forta Bot that monitors events emitted by the the Forta Airdrop contract",
   "scripts": {

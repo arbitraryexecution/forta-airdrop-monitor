@@ -1,0 +1,88 @@
+{
+  "developerAbbreviation": "AE",
+  "protocolName": "Forta Network",
+  "protocolAbbreviation": "FORTA-AIRDROP",
+  "gatherMode": "any",
+  "bots": [
+    {
+      "botType": "monitor-events",
+      "name": "bot_1",
+      "contracts": {
+        "Airdrop": {
+          "address": "0x988a7Bc24A9D0fa49989FB9734bDa30f55760cEb",
+          "abiFile": "FortaAirdrop.json",
+          "events": {
+            "AdditionalClaimModified": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "AddressBlockChanged": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "AdminChanged": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "BeaconUpgraded": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "ExternalAllocationsReduced": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "Initialized": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "NonceConsumed": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "Paused": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "RoleAdminChanged": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "RoleGranted": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "RoleRevoked": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "SanctionsListSet": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "TokensReclaimed": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "TokensReleased": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "TreasurySet": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "Unpaused": {
+              "type": "Info",
+              "severity": "Info"
+            },
+            "Upgraded": {
+              "type": "Info",
+              "severity": "Info"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
